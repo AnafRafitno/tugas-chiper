@@ -65,7 +65,7 @@ class ChirpController extends Controller
  
         $chirp->update($validated);
  
-        return redirect(route('chirps.index')); 
+        return redirect(route('chirps.index'));   
     }
 
     /**
